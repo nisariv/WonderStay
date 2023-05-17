@@ -41,7 +41,7 @@ body{
 	background-color:  #993333;
 	color: #FFFAF4;
 	padding: 2% 10% 13%;
-	margin-top: 50%;
+	margin-top: 20%;
 	border-radius: 50px;
 	font-size:20px;
 	font-weight: 400;
@@ -60,7 +60,7 @@ body{
 #form input{
 	border: solid;
 	border-color: #2F271B;
-	padding: 3% 46% 3% 2%;
+	padding: 3% 44% 3% 2%;
 	border-radius: 10px;
 	margin: 2% 0 5%;
 }
