@@ -87,6 +87,15 @@ body{
 	border-width: thick;
 	border-color: #993333;
 }
+.olvidaste{
+	font-weight: 800;
+	color: #993333;
+	font-size: 16px;
+	margin-bottom: 5%;
+}
+.olvidaste a{
+	color: #993333;
+}
 .boton-vamos{
 	background-color: #F15C73;
 	color: #FFFAF4;
