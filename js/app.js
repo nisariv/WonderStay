@@ -33,6 +33,11 @@ var app = new Framework7({
     	url: 'olvido.html',
     	name: 'olvido',
   		},
+		{
+		path: '/reenviar/',
+    	url: 'reenviar.html',
+    	name: 'reenviar',
+  		},
 		
 		
 		
