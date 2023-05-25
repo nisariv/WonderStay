@@ -38,6 +38,16 @@ var app = new Framework7({
     	url: 'reenviar.html',
     	name: 'reenviar',
   		},
+		{
+		path: '/homepage/',
+    	url: 'homepage.html',
+    	name: 'homepage',
+  		},
+		{
+		path: '/buscador/',
+    	url: 'buscador.html',
+    	name: 'buscador',
+  		},
 		
 		
 		

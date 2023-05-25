@@ -31,30 +31,61 @@
 					
 					<section id="form">
 						<div class="block">
-							<form>
-								<label><h3>Nombre</h3></label>
-								<input type="text" placeholder="Escribe tu nombre." name="nombre">
-								<label><h3>Correo Electrónico</h3></label>
-								<input type="email" placeholder="Escribe tu email." name="email">
-								<label><h3>Fecha de nacimiento</h3></label>
-								<input type="text" placeholder="Escriba su cumpleaños." readonly="readonly" id="demo-calendar-default"/>
-								<label><h3>Contraseña</h3></label>
-								<input type="password" placeholder="Escribe una contraseña." name="password">
-								<label><h3>Confirmar contraseña</h3></label>
-								<input type="password" placeholder="Confirma tu contraseña." name="confirmpassword">
-							</form>
+							
+								<div class="list inset">
+								  
+									  <div class="item-inner">
+										<div class="item-input-wrap">
+											<label><h3>Nombre</h3></label>
+										  <input type="text" placeholder="Escribe tu nombre.">
+										</div>
+									  </div>
+									
+									
+									  <div class="item-inner">
+										<div class="item-input-wrap">
+											<label><h3>Correo Electrónico</h3></label>
+										  <input type="email" placeholder="Escribe tu email.">
+										</div>
+									  </div>
+									
+									<div class="item-inner">
+										<div class="item-input-wrap">
+											<label><h3>Fecha de nacimiento</h3></label>
+										  <input type="date" placeholder="Escriba su cumpleaños.">
+										</div>
+									</div>
+									
+									<div class="item-inner">
+										<div class="item-input-wrap">
+											<label><h3>Contraseña</h3></label>
+										  <input type="password" placeholder="Ingresa una contraseña.">
+										</div>
+									</div>
+									
+									<div class="item-inner">
+										<div class="item-input-wrap">
+											<label><h3>Confirmar contraseña</h3></label>
+										  <input type="password" placeholder="Confirma tu contraseña.">
+										</div>
+									</div>
+									
+									
+								</div>
+							
+							
 						</div>
 					</section>
 					<div class="block">
 						<p><center>Al continuar, aceptas nuestros <a>Terminos de servicio</a> y <a>Política de privacidad</a>.</center></p>
-						<a href="/crear/" class="button button-fill boton-crearcuenta"><p>Crear</p></a>
+						<a href="/homepage/" class="button button-fill boton-crearcuenta"><p>Crear</p></a>
 					</div>
 				</section>
 			</section>
 		</div>
 	</div>
 	<script src="js/framework7.bundle.min.js"></script>
-	<script src="js/app.js"></script>
+	<script src="js/app.js?2.0"></script>
 	<script>
 			var calendarDefault = app.calendar.create({
 			  inputEl: '#demo-calendar-default',

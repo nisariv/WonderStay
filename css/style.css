@@ -14,7 +14,8 @@
 	--color-morado-main:#242230;
 	--color-beige:#FFFAF4;
 	--color-morado:#5252D4;
-	--color-acento: #BE102A; 
+	--color-acento: #BE102A;
+	--f7-list-bg-color: #FFFAF4;
 }
 body{
 	font-family: 'Fira Sans', sans-serif;
@@ -60,7 +61,7 @@ body{
 #form input{
 	border: solid;
 	border-color: #2F271B;
-	padding: 3% 44% 3% 2%;
+	padding: 3% 50% 3% 2%;
 	border-radius: 10px;
 	margin: 2% 0 5%;
 }
@@ -96,6 +97,60 @@ body{
 .olvidaste a{
 	color: #993333;
 }
+
+
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.boton-buscador{
+	background-color: #FFFAF4;
+	border-style: solid;
+	color: #898989;
+	border-color: #2F271B;
+	border-width: thin;
+	text-align: left;
+	text-transform: inherit;
+	border-radius: 10px;
+	margin: 2% 0;
+	font-size: 17px;
+}
+.boton-cerca{
+	background-color: #993333;
+	color: #FFFAF4;
+	text-align: center;
+	text-transform: inherit;
+	border-radius: 30px;
+}
+.boton-otros{
+	background-color: #9999CC;
+	color: #FFFAF4;
+	text-align: center;
+	text-transform: inherit;
+	border-radius: 30px;
+}
+#categorias h2{
+	font-size: 20px;
+	margin: 5% 0;
+}
+.imagenes{
+	border-radius: 15px;
+	margin: 10% 1%;
+}
+.boton-buscar{
+	background-color: #993333;
+	color: #FFFAF4;
+	text-align: center;
+	text-transform: inherit;
+	border-radius: 30px;
+	font-size:16px;
+	font-weight: 400;
+	margin: 4% 0;
+}
 .boton-vamos{
 	background-color: #F15C73;
 	color: #FFFAF4;
@@ -118,267 +173,8 @@ h1,h2,h3,h4,h5,h6,p{
 	font-weight: 700;
 }
 
-
-
-.inicio{
-	background-color: #FFFAF4;
-}
-
-
-
-
-.welcome{
-	background-color: var(--f7-theme-color);
-	padding: 25px 20px;
-	color: #fff;
-	border-bottom-right-radius: 40px;
-}
-.welcome h1{
+#homepage h1{
 	font-size: 24px;
-	margin-bottom: 15px;
+	font-weight: 700;
 }
 
-.semana{
-	padding: 20px 20px;
-}
-
-.mascota{
-	padding: 20px 20px;
-}
-
-.mascota .button{
-	background-color: #BE102A;
-	color: #fff;
-	font-size: 14px;
-	font-weight: 600;
-	text-transform: none;
-	margin-top: 10px;
-	border-radius: 20px;
-}
-
-.opciones{
-	padding: 20px 20px 85px;
-}
-
-.card-content{
-	color: #fff;
-}
-.home-aprender{
-	padding:15px 20px;
-	color: var(--color-beige);
-}
-.home-aprender h3{
-	font-weight: 300;
-}
-.home-aprender .button{
-	background-color: var(--color-acento);
-	color: var(--color-beige);
-	font-size: 14px;
-	font-weight: 300;
-	text-transform: none;
-	border-radius: 100px;
-	margin-top: 20px;
-}
-
-.block-title-medium{
-	font-weight: 600;
-}
-
-
-.row-cuentos{
-	color:var(--color-beige); 
-	padding:15px 20px;
-
-}
-.row-cuentos .material-icons{
-	color:var(--color-beige); 
-}
-.card-princess{
-	height: 300px;
-	position: relative;
-}
-.row-minutes{
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-}
-
-.inicio p{
-	margin: auto;
-}
-
-.card-intentalo{
-	background-color: #242230;
-	color: #FFFAF4;
-	padding: 8% 0;
-	border-bottom-right-radius: 50px;
-	border-top-right-radius: 50px;
-	border-bottom-left-radius: 0px;
-	border-top-left-radius: 0px;
-	font-size:12px;
-
-}
- .intentalo{
-	margin-top: -18px;
-	 font-weight: 400;
-	margin-left: 15px;
-}
-
-.encabezado{
-	padding-top: 15%;
-	margin-left: -15px;
-	color: #242230;
-}
-
-.instrucciones {
-	color: #242230;
-	margin: 5px 15px;
-}
-
-.texto-ejercicio{
-	
-	color: #242230;
-	
-}
-
-.card-caracter{
-	background-color: #5252D4;
-	text-align: center;
-	color: #FFFAF4;
-	padding: 7px 0;
-	border-radius: 25px;
-}
-
-.card-caracteres{
-	background-color: #FFF;
-	color: #242230;
-	border-color: #242230;
-	border-radius: 20px;
-	border-width: thick;
-
-}
-
-.boton-continuar{
-	background-color: #BE102A;
-	color: #FFFAF4;
-	font-size: 14px;
-	font-weight: 400;
-	text-transform: capitalize; 
-	border-radius: 40px;
-	margin-top: 10px;
-}
-
-.boton-audio{
-	background-color: #BE102A;
-	padding-top: 2px;
-}
-.boton-audio i{
-	padding-top: 4px;
-}
-
-.imagen{
-		background-color: #FFFAF4;
-		color: #000000;
-		margin-bottom: 30px;
-	
-}
-.imagen p{ 
-margin-left: 20px; 
-		margin-right: 20px; 
-} 
-.imagen .button{ 
-	
-} 
-#boton2{  
-	margin-top: 20px;
-	margin-left: 120px;
-}
-
-.button-red{
-	background-color: #BE102A;
-	color: #fff;
-	font-size: 14px;
-	font-weight: 600;
-	text-transform: none;
-	margin-top: 10px;
-	border-radius: 20px;
-	
-}
-
-.button-white{
-	color: #BE102A;
-	font-size: 14px;
-	font-weight: 600;
-	text-transform: none;
-	margin-top: 10px;
-	border-radius: 20px;
-	border-color: #BE102A;
-}
-
-.thumbs-up{
-	align: center;
-}
-
-#products .card{
-	background-color: #5252d1;
-	border-radius: 10px;
-}
-
-#products i{
-	color: #fff;
-	font-size: 20px;
-}
-.tiempo{
-	font-size: 15px;
-}
-
-.video{
-	padding-top: 230%;
-}
-
-.decir{
-	background-color: var(--f7-theme-color);
-	padding: 90px 20px 25px;
-	color: #fff;
-	border-bottom-right-radius: 40px;
-	border-bottom-left-radius: 40px;
-}
-.decir h1{
-	font-size: 28px;
-	margin-bottom: 15px;
-}
-#leccion .card{
-	background-color: #5252d1;
-	border-radius: 0;
-	border-bottom-right-radius: 90px;
-	border-top-right-radius: 90px;
-	margin: 15px 20px 15px 0;
-}
-.boton-audio2{
-	background-color: #fefaf4;
-	padding-top: 2px;
-	margin: 0 9px;
-}
-.boton-audio2 i{
-	color: #5252d1;
-	padding-top: 4px;
-}
-#escritura h2{
-	margin: 15px;
-}
-.card-katakana{
-	background-color: #5252d1;
-	border-radius: 20px;
-	margin-top: 15px;
-}
-
-.card-hiragana{
-	background-color: #8b8be0;
-	border-radius: 20px;
-	margin-top: 15px;
-	color: #232230;
-}
-
-#about ul{
-	list-style: none;
-}
