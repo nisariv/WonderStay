@@ -48,6 +48,27 @@ var app = new Framework7({
     	url: 'buscador.html',
     	name: 'buscador',
   		},
+		{
+		path: '/sitio/',
+    	url: 'sitio.html',
+    	name: 'sitio',
+  		},
+		{
+		path: '/reserva_uno/',
+    	url: 'reserva_uno.html',
+    	name: 'reserva_uno',
+  		},
+		{
+		path: '/reserva_dos/',
+    	url: 'reserva_dos.html',
+    	name: 'reserva_dos',
+  		},
+		{
+		path: '/reserva_tres/',
+    	url: 'reserva_tres.html',
+    	name: 'reserva_tres',
+  		},
+		
 		
 		
 		

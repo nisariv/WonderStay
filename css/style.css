@@ -9,7 +9,7 @@
 	--f7-block-margin-vertical:20px;
 	--f7-card-footer-border-color:transparent; 
   	--f7-card-border-radius: 20px;
-	--f7-card-bg-color: #242230;
+	--f7-card-bg-color: #FFFAF4;
 	--f7-tabbar-label-text-transform: none;
 	--color-morado-main:#242230;
 	--color-beige:#FFFAF4;
@@ -104,7 +104,13 @@ body{
   'FILL' 0,
   'wght' 600,
   'GRAD' 0,
-  'opsz' 48
+  'opsz' 48;
+	
+	margin-top: 2%;
+	
+}
+.buscadoricon{
+	font-size: 17px;
 }
 
 .boton-buscador{
@@ -160,6 +166,32 @@ body{
 	border-radius: 40px;
 	margin-top: 20px;
 }
+
+#buscar input{
+	border: solid;
+	border-color: #2F271B;
+	padding: 3% 0 3% 2%;
+	border-radius: 10px;
+	margin: 2% 0 5%;
+}
+
+input[type=date], input[type=datetime-local], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], select, textarea {
+	border: solid;
+	border-color: #2F271B;
+	padding: 3% 28% 3% 2%;
+	border-radius: 10px;
+	margin: 2% 0 5%;
+	color: #898989;
+	border-width: thin;
+}
+.inputs{
+	border: solid;
+	border-color: #2F271B;
+	padding: 3% 0 3% 2%;
+	border-radius: 10px;
+	margin: 2% 0 5%;
+}
+
 .page{
 		background-color: var(--color-beige);
 }
@@ -177,4 +209,56 @@ h1,h2,h3,h4,h5,h6,p{
 	font-size: 24px;
 	font-weight: 700;
 }
+.boton-agregar{
+	border: solid;
+	border-color: #2F271B;
+	background-color: #FFFAF4;
+	color: #2F271B;
+	text-align: center;
+	text-transform: inherit;
+	border-radius: 30px;
+	font-size: 18px;
+	margin: 4% 0;
+}
+.der{
+	text-align: right;
+}
 
+.demo-card-header-pic{
+	background-image:url(../img/fotos/riverview.jpg);
+	 height: 40vw;
+	 background-size: cover;
+	 background-position: center;
+	 color: #fff;
+}
+
+.demo-card-header-pic-2{
+	background-image:url("../img/fotos/guijarro.jpg");
+	 height: 40vw;
+	 background-size: cover;
+	 background-position: center;
+	 color: #fff;
+}
+.demo-card-header-pic-3{
+	background-image:url("../img/fotos/portal.jpg");
+	 height: 40vw;
+	 background-size: cover;
+	 background-position: center;
+	 color: #fff;
+}
+.demo-card-header-pic-4{
+	background-image:url("../img/fotos/Lovely 2-bedroom.png");
+	 height: 40vw;
+	 background-size: cover;
+	 background-position: center;
+	 color: #fff;
+}
+.card-header{
+	padding-top: 100px;
+	
+}
+
+.card-header a {
+	color: white;
+	text-shadow: 1px 1px 4px #000;
+}
