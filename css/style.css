@@ -7,7 +7,7 @@
 	--f7-bars-bg-color:#FFFAF4;/*toolbar*/
 	--f7-tabbar-link-inactive-color: #333; /*link toolbar*/
 	--f7-block-margin-vertical:20px;
-	--f7-card-footer-border-color:transparent; 
+	--f7-card-footer-border-color:#2F271B; 
   	--f7-card-border-radius: 20px;
 	--f7-card-bg-color: #FFFAF4;
 	--f7-tabbar-label-text-transform: none;
@@ -145,7 +145,7 @@ body{
 }
 .imagenes{
 	border-radius: 15px;
-	margin: 10% 1%;
+	margin: 10% 1% 5%;
 }
 .boton-buscar{
 	background-color: #993333;
@@ -175,7 +175,7 @@ body{
 	margin: 2% 0 5%;
 }
 
-input[type=date], input[type=datetime-local], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], select, textarea {
+input[type=date], input[type=datetime-local], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=button], select, textarea {
 	border: solid;
 	border-color: #2F271B;
 	padding: 3% 28% 3% 2%;
@@ -183,6 +183,15 @@ input[type=date], input[type=datetime-local], input[type=email], input[type=mont
 	margin: 2% 0 5%;
 	color: #898989;
 	border-width: thin;
+}
+.list input[type=date], .list input[type=datetime-local], .list input[type=email], .list input[type=month], .list input[type=number], .list input[type=password], .list input[type=search], .list input[type=tel], .list input[type=text], .list input[type=time], .list input[type=url], .list input[type=button], .list select {
+    width: 100%;
+    height: var(--f7-input-height);
+    color: var(--f7-input-text-color);
+    font-size: var(--f7-input-font-size);
+    background-color: var(--f7-input-bg-color,transparent);
+    padding-left: var(--f7-input-padding-left);
+    padding-right: var(--f7-input-padding-right);
 }
 .inputs{
 	border: solid;
@@ -258,7 +267,96 @@ h1,h2,h3,h4,h5,h6,p{
 	
 }
 
+
 .card-header a {
 	color: white;
 	text-shadow: 1px 1px 4px #000;
 }
+
+.titulo{
+	font-size: 24px;
+	text-align: center;
+}
+.parrafo{
+	font-size: 18px;
+	text-align: center;
+}
+.card-outline{
+	border-color: #2F271B;
+}
+.card-outline a{
+	color: #2F271B;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.card-outline p{
+	color: #2F271B;
+	font-size: 15px;
+	
+}
+.iconos{
+	font-size: 16px;
+}
+.boton-puntaje{
+	background-color: #FFFAF4;
+	color: #2F271B;
+	border-color: #2F271B;
+	border-style: solid;
+	border-width: medium;
+	text-align: center;
+	text-transform: inherit;
+	border-radius: 30px;
+	font-size:18px;
+	font-weight: 400;
+	margin: 4% 0;
+	
+}
+hr{
+	margin: 5% 2%;
+
+}
+
+.subtitulo{
+	color: #898989;
+	font-size: 12px;
+}
+
+.stepper-input-wrap input{
+	border-style: none;
+}
+
+.boton-perfil{ 
+	background-color: #FFFAF4;
+	color: #2F271B;
+	border: 2px solid;
+	border-color: #3333CC;
+	padding: 2% 8% 13%;
+	margin-top: 5%;
+	border-radius: 10px;
+	font-size:20px;
+	font-weight: 500;
+	text-transform: none;
+} 
+.perfiltxt{
+	text-align: center;
+	font-size: 16px;
+	margin-top: 4%;
+	
+} 
+#Perfil1{
+	background-color: #9999CC; 
+	color: #FFFAF4; 
+	text-align: center; 
+	font-weight: 100;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	
+} 
+#resenas{
+	background-color: #FFFAF4; 
+	color: #2F271B; 
+	font-weight: 100; 
+	
+	
+} 

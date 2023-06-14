@@ -68,7 +68,56 @@ var app = new Framework7({
     	url: 'reserva_tres.html',
     	name: 'reserva_tres',
   		},
-		
+		{
+		path: '/reserva_cuatro/',
+    	url: 'reserva_cuatro.html',
+    	name: 'reserva_cuatro',
+  		},
+		{
+		path: '/reservas/',
+    	url: 'reservas.html',
+    	name: 'reservas',
+  		},
+		{
+		path: '/favoritos/',
+    	url: 'favoritos.html',
+    	name: 'favoritos',
+  		},
+		{
+		path: '/resultados/',
+    	url: 'resultados.html',
+    	name: 'resultados',
+  		},
+		{
+		path: '/filtros/',
+    	url: 'filtros.html',
+    	name: 'filtros',
+  		},
+		{
+		path: '/perfil/',
+    	url: 'perfil.html',
+    	name: 'perfil',
+  		}, 
+		{
+		path: '/editperfil/',
+    	url: 'editperfil.html',
+    	name: 'editperfil',
+  		},
+		{
+		path: '/resenas/',
+    	url: 'resenas.html',
+    	name: 'resenas',
+  		}, 
+		{
+		path: '/ajustes/',
+    	url: 'ajustes.html',
+    	name: 'ajustes',
+  		}, 
+		{
+		path: '/moneda/',
+    	url: 'moneda.html',
+    	name: 'moneda',
+  		},
 		
 		
 		
@@ -92,7 +141,21 @@ var app = new Framework7({
 	}
 });
 
-
+var ac1 = app.actions.create({
+  buttons: [
+    {
+      text: 'Español',
+      bold: true
+    },
+    {
+      text: 'Inglés'
+    },
+    {
+      text: 'Cancelar',
+      color: 'red'
+    },
+  ]
+})
 
 $$('#btnLogin').on('click', function (e) {
 	e.preventDefault();
@@ -125,7 +188,9 @@ $$(document).on('click', '#btnAddCart', function (e) {
 	
 });
 
-
+$$('.ac-1').on('click', function () {
+    ac1.open();
+});
 
 
 
